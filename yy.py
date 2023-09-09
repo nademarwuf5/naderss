@@ -27,7 +27,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023,10,1,1,00 ,0)
+g= datetime.datetime(2023,1,1,1,00 ,0)
 
 if (x.strftime("%x"))>(g.strftime("%x")):
  print('\n\n')
@@ -52,6 +52,12 @@ if (x.strftime("%x"))==(g.strftime("%x")):
 else:
     print('')
 print('')
+name = input ('\033[1;32mEntre password : \033[1;34m')
+if name == 'NADER19' : 
+	print('\033[1;35m OK)
+else :
+   print ('\033[1;31m كلمه السر خطا NO ')
+   exit()
 
 try:
         
