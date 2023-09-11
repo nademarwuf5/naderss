@@ -2802,7 +2802,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 10, 8, 20, 0 ,0)
+g= datetime.datetime(2023, 1, 8, 20, 0 ,0)
 
 if (x.strftime("%x"))>(g.strftime("%x")):
  print('\n\n')
@@ -2827,6 +2827,12 @@ if (x.strftime("%x"))==(g.strftime("%x")):
 else:
     print('')
 print('')
+name = input ('Entre password : \033[1;34m')
+if name == 'NADER19' : 
+	print('\033[1;35m كلمه السر صح')
+else :
+   print ('\033[1;31m كلمه السر غلط ')
+   exit()
 import webbrowser
 import requests,time,pyfiglet,datetime
 import requests,bs4,json,os,sys,random,datetime,time,re
