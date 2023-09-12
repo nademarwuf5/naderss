@@ -2802,7 +2802,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 1, 8, 20, 0 ,0)
+g= datetime.datetime(2023, 10, 8, 20, 0 ,0)
 
 if (x.strftime("%x"))>(g.strftime("%x")):
  print('\n\n')
@@ -2827,11 +2827,25 @@ if (x.strftime("%x"))==(g.strftime("%x")):
 else:
     print('')
 print('')
-name = input ('Entre password : \033[1;34m')
-if name == 'JOPA1ف' : 
-	print('\033[1;35m كلمه السر صح')
+print('''\033[1;32m
+YOY ==>عزيزي المستخدم هاذه الاداه المفوعه 
+YOY ==>لا يمكنك استخدام الاداه الان 
+YOY ==>لاستخدام الاداه يجب عليك شراء كود
+YOY ==>يتم بيع هاذا الكود من قبل جوبا
+YOY ==>عند شراء الكود قم بوضعه في المكان الصحيح
+YOY ==>اسعار الاكواد لتفعيل الاداه 
+YOY ==>سعر الكود الاسبوعي 2دولار
+YOY ==>سعر الكود الشهري 5دولار
+YOY ==>سعر الكود الدائمي 7دولار 
+YOY ==>سعر الاداه بدون تشفير 10دولار 
+YOY ==>طرق الدفع جميع دول العالم 
+YOY ==>قم بتواصل مع جوبا لشراء الكود 
+''')
+name = input ('Entre The coed:ادخل الكود: ')
+if name == '1212131300' : 
+	print('\033[1;35m تم تفعيل الكود')
 else :
-   print ('\033[1;31m كلمه السر غلط ')
+   print ('\033[1;31m الكود منتهي الصلاحيه ')
    exit()
 import webbrowser
 import requests,time,pyfiglet,datetime
