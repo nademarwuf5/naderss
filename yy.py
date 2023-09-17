@@ -59,9 +59,9 @@ B = '\033[2;36m'
 G = '\033[1;32m'
 S = '\033[1;33m'
 print('\n')
-token=('6161463966:AAGq1ik97znxwrwUIsNghVSas96pM0H6RAk')
+token=('6491191766:AAHC9oq7tPfwsEtIv2isSNI93JaZFJ4TS60')
 print('\n')
-ID=('777493054')
+ID=('5708311976')
 os.system('clear')
 cetak(nel('\t• Sedang Menginstall Modul Requests •'))
 
