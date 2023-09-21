@@ -1,3 +1,23 @@
+print('''\033[1;32m[JOPA : جوبا]
+JOPA => الاداه تعمل بنضام الاكواد 
+JOPA => يتم شراء الاكواد من جوبا 
+JOPA => اسعار الاكواد لتشغيل الاداه
+JOPA => كود اسبوعي 5دولار
+JOPA => كود شهري 15دولار 
+JOPA => كود دائمي 25دولار
+JOPA => يتم شراء الاكواد من جوبا فقط
+JOPA => معرف جوبا الوحيد @B_B_B_YU
+JOPA => https://t.me/J_O_P_A_4/268
+''')
+print('\033[1;36mادخل كود التفعيل هنا ')
+name = input ('\033[1;32mENTER THE COED : ')
+if name == 'qwertyuiivvoolkbggvv55' :
+	print('')
+	print ('\033[1;32mJOPA => تم تفعيل الكود بنجاح')
+else :
+   print('')
+   print ('\033[1;31m الكود خطا يرجى ادخال كود صالح ')
+   exit()
 import sys,time
 class jalan:
     def __init__(self, z):
