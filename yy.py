@@ -11,7 +11,7 @@ JOPA => https://t.me/J_O_P_A_4/268
 ''')
 print('\033[1;36mادخل كود التفعيل هنا ')
 name = input ('\033[1;32mENTER THE COED : ')
-if name == 'qwertyuiivvoolkbggvv55' :
+if name == 'qwertyuiivvoolkbggvv11' :
 	print('')
 	print ('\033[1;32mJOPA => تم تفعيل الكود بنجاح')
 else :
