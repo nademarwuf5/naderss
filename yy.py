@@ -14,7 +14,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 12, 28, 12, 10 ,9)
+g= datetime.datetime(2023, 1, 28, 12, 10 ,9)
 
 
 if (x.strftime("%x"))>(g.strftime("%x")):
@@ -47,5 +47,11 @@ if (x.strftime("%x"))>(g.strftime("%x")):
  exit()
  open(".token.txt", "w").write(' . . . .')
  print(x)
-
+name = input ('الاداه وقفت ما تحاول يمطي')
+if name ==  'NADER1jfjdjjfjfjfjjfjfjfj9' :
+	print('كسمك ليش رجعت الوقت هههه')
+else :
+   print('كسمك ليش رجعت الوقت هههه')
+   exit()
+   
 print('احبك')
