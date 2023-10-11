@@ -143,10 +143,10 @@ def i():
     print('\033[1;31m[\033[1;37m+\033[1;31m] \033[1;32mTEL = nader20090')
     print('')
     print('\033[1;31m●\033[1;32m○\033[1;33m●'*21)
-    code = '6'
+    code = '100000'
     limit = 50000
     for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(8))
+        nmp = ''.join(random.choice(string.digits) for _ in range(9))
         user.append(nmp)
     os.system("clear")
 
